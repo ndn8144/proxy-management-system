@@ -54,7 +54,6 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 Server running on http://0.0.0.0:${PORT}`);
   console.log(`📍 Local access: http://localhost:${PORT}`);
-  console.log(`🌍 Network access: http://103.195.238.251:${PORT}`);
 });
 
 module.exports = app;
